@@ -1,0 +1,14 @@
+{
+  "pond": {
+    "guppy": {
+      "caught": true,
+      "timestamp": "2025-06-20T12:55:11.146142Z"
+    },
+    "magikarp": {
+      "caught": true,
+      "timestamp": "2025-06-20T12:55:37.736431Z"
+    }
+  },
+  "river": {},
+  "sea": {}
+}

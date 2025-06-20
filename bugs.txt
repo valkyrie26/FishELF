@@ -1,0 +1,2 @@
+bug:
+does not check if currently raining for coelacanth. need to add param for it. 

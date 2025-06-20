@@ -1,0 +1,30 @@
+# if gdb still doesn't install, do:
+
+sudo apt-get update
+sudo apt-get install -y gdb
+
+gdb --version
+
+
+
+# if nm isn't installed: 
+
+sudo apt-get update
+sudo apt-get install -y binutils
+
+# Give exe permission to the fish engine
+chmod +x fishengine.py
+
+
+cd zones/pond && make && cd ../..
+gdb zones/pond/./pond
+
+# stuck?
+cd zones/sea
+make clean && make
+gdb ./sea
+(gdb) info functions
+**************
+future steps:
+- view critterpedia
+- add achievements that pop up

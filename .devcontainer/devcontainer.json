@@ -1,0 +1,5 @@
+{
+  "name": "FishELF Dev",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "postCreateCommand": "apt-get update && apt-get install -y gcc gdb binutils python3"
+}
