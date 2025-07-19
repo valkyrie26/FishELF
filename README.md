@@ -16,3 +16,4 @@ Figure out when, where and how to catch!
 For cleaner outputs do: 
 nm pond | grep ' T '
 
+![Fail Case](readme_images/failed_to_catch.png)
