@@ -7,6 +7,12 @@ How to play?
 to see all existing functions in a code run:
 info functions
 
+In the debugger: 
+start
+call fish_name()
+
+Figure out when, where and how to catch!
+
 For cleaner outputs do: 
 nm pond | grep ' T '
 
